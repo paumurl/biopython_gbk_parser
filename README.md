@@ -10,7 +10,7 @@ biopython_gbk_parser.py  input_file  locus
   
  
 ### Functions:
-  - make_list_and_dict(input_file): it will parse the GBK file to provide a list_of_genes (which contains of all loci in order) and a dictionary dict_of_genes (locus : [strand, biological product])
+  - make_list_and_dict(input_file): it will parse the GBK file to provide a list_of_genes (which contains all loci in order) and a dictionary dict_of_genes (locus : [strand, biological product])
   - get_genomic_neighbourhood_list(locus_tag,list_of_genes): it will provide a genomic_neighbourhood_list of the loci -2,-1,+1 y +2 surrounding our locus_tag we use as query, including the locus_tag itself
   - print_result(genomic_neighbourhood_list,dict_of_genes): it will print the genomic neighbourhood using the format method, each locus will be printed in one direction or another depending on the strand the locus is located at:
     - positive strand: [ locus ]>
